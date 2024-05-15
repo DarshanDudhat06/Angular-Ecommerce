@@ -1,0 +1,33 @@
+
+
+<!-- product display part -->
+<div class="container-fluid">
+  <div class="row allcard">
+    <div class="col-md-2 mt-3 allproduct" *ngFor="let item of data?.products">
+      <div class="card-img-actions">
+        <img routerLink="/product-details/{{ item.id }}" src="{{ item.thumbnail }}" class="card-img img-fluid" />
+      </div>
+      <div class="card mt-2 mb-2">
+        <div class="card-body text-center">
+          <div >
+            <h6 class="font-weight-semibold">
+              <a class="text-default">{{ item.title }}</a>
+            </h6>
+          </div>
+          <h2 class="mb-0 font-weight-semibold">${{ item.price }}</h2>
+          <div >
+          <button class="btn btn-sm btn-dark mt-2 infobtn" routerLink="/product-details/{{ item.id }}">
+            <mat-icon>info</mat-icon><span class="allbtn">&nbsp;View Details</span></button>
+            
+          <button (click)="addtocart(item)" class="btn btn-sm mt-2 shoppingcart">
+            <mat-icon>add_shopping_cart</mat-icon><span class="allbtn"> Add To Cart</span></button>
+
+          <button (click)="removeitems(item)" class="btn btn-sm mt-2 closebtn">
+            <mat-icon>close</mat-icon><span class="allbtn">Remove Items</span>
+          </button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,89 @@
+/* h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+} */
+
+img {
+    height: 80px;
+    width: 120px;
+    margin-left: -37%;
+}
+
+.cart {
+    color: white;
+    font-size: 33px;
+    cursor: pointer;
+}
+
+mat-icon {
+    font-size: 35px;
+    width: 42px;
+    height: 37px;
+    margin-left: -35px;
+    margin-bottom: -33px;
+}
+
+.dropdown {
+    margin-left: 173%;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: white;
+    margin-left: 27%;
+    margin-right: auto;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+.dropdown-menu {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-left: -300px;
+    box-shadow: -5px -1px 18px 6px rgba(0, 0, 0, 0.75);
+}
+
+.mainheader {
+    background-color: rgb(1, 140, 254);
+}
+
+.box {
+    width: 280px;
+}
+
+.thumbnail {
+    width: 80px;
+    margin-left: 5px;
+    height: 60px;
+}
+
+.itemprice {
+    margin-left: -10px;
+}
+
+.price {
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.deleteicon {
+    color: red;
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.emptycart {
+    background-color: rgb(0, 174, 255);
+    font-weight: 500;
+    width: 270px;
+    border: 2px solid black;
+}

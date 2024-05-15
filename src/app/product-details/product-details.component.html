@@ -1,0 +1,34 @@
+
+<!-- single product display -->
+<div class="container">
+  <div class="row product-details">
+    <div class="col-sm-3 ">
+      <img src="{{ productdata?.images[0] }}" class="product-img" />
+      <div class="button">
+        <button class="btn btn-primary">Buy now</button>&nbsp; &nbsp;
+        <button
+          (click)="addtocart(productdata)"
+          *ngIf="showadd"
+          class="btn btn-success">Add to cart</button>
+      </div>
+    </div>
+
+    <div class="col-sm-8">
+      <div class="details">
+        <h1>{{ productdata?.title }}</h1>
+        <P class="prize">SPECIAL PRICE</P>
+        <H3>Price:&nbsp;${{ productdata?.price }}</H3>
+        <strong class="category">Category:&nbsp;<p class="brand">{{ productdata?.category }}</p></strong><br>
+        <strong class="heading">Description:</strong>
+        <p class="description">{{ productdata?.description }}</p>
+        <br />
+        <strong class="Discount">
+          Discount: <p class="percentage">{{ productdata?.discountPercentage }}%</p>
+        </strong>
+        <br />
+        <strong class="stock">Stock: <p class="units">{{ productdata?.stock }} Units left</p></strong>
+        <button routerLink="/" class="btn btn-primary text-light mt-2 back">BACK</button>
+      </div>
+    </div>
+  </div>
+</div>

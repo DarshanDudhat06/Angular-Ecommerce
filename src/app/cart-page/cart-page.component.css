@@ -1,0 +1,64 @@
+.card{
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: absolute;
+    padding: 88px;
+    margin-left: 610px;
+    margin-top: 267px;
+    padding-bottom: 70px;
+}
+.tablename{
+    font-size: 40px; text-align: center; font-weight: 700; margin-top: 20px;
+}
+.table{
+    text-align: center;
+}
+
+.itemimg{
+width: 180px;
+height: 180px;
+}
+
+.delete{
+    margin: 40px;
+}
+.totalamount{
+    margin-top: 20px; font-weight: 900; 
+}
+.amountprice{
+    font-size: 25px; margin-left: 30px;
+}
+.tax{
+    font-size: 26px;
+}
+.taxamount{
+    margin-left: 178px; margin-top: -23px;
+}
+.total{
+    font-size: 26px; color: blue;
+}
+.finalamount{
+    margin-left: 180px; margin-top: -20px; font-size: 30px;
+}
+.sorryimg{
+    width: 250px;
+}
+h4{
+    font-size: 45px;
+    font-weight: bold;
+}
+h6{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+}
+.check{
+width: 140px;
+}
+.form{
+    width: 144px;
+}
+.list{
+    padding-top: 65px;
+}

@@ -1,0 +1,83 @@
+
+
+.product-img {
+    width: 319px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: -60px;
+}
+
+.details {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 47px;
+    width: 900px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+button {
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.category {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.heading {
+    font-size: 25px;
+}
+
+.description {
+    font-size: 22px;
+    color: blue;
+    margin-top: 10px;
+}
+
+.Discount {
+    color: GREEN;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.prize {
+    font-size: 14px;
+    font-weight: 700;
+    color: blue;
+}
+
+.stock {
+    font-size: 20px;
+    color: red;
+}
+
+.back {
+    font-weight: 500;
+    width: 100px;
+}
+.brand{
+    margin-left: 140px;
+    margin-top: -26px;
+    font-weight: 400;
+}
+.percentage{
+    margin-left: 140px;
+    margin-top: -26px;
+    font-weight: 500;
+}
+.units{
+    margin-left: 65px;
+    margin-top: -21px; 
+    font-weight: 550;
+}
