@@ -16,7 +16,6 @@ export class ProductViewComponent implements OnInit {
     this.displayproducts();
     localStorage.removeItem('ecomdata')
   }
-
   displayproducts() {
     this.api.getproducts().subscribe((res) => {
       this.data = res;
