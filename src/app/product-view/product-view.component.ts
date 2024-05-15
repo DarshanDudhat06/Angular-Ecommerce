@@ -22,7 +22,6 @@ export class ProductViewComponent implements OnInit {
       console.log(res);
     });
   }
-
   addtocart(item: product) {
     this.api.addtocart(item);
   }
