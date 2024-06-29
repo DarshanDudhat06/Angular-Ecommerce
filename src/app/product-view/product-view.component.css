@@ -72,4 +72,5 @@ mat-icon {
 .allcard {
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
 }
